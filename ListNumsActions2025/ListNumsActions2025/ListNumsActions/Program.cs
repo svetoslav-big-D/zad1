@@ -23,8 +23,17 @@
                         Console.WriteLine(string.Join(" ", nums));
                         break;
                     case "contains":
-                        
-                        //TODOjhnjjjjjjjjjjjjjjjjjjjj
+                        int element = int.Parse(cmd[1]);
+                        if (nums.Contains(element))
+                        {
+                            Console.WriteLine("Yes");
+                        }
+                        else
+                        {
+                            Console.WriteLine("No");
+                        }
+
+                        //TO DO
                         break;
 
 
